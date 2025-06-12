@@ -20,6 +20,7 @@ export default function HomePage() {
           ]}
         />
         <Features />
+        <Features />
         <Pricing />
         <Footer />
       </main>

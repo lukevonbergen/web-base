@@ -18,10 +18,10 @@ export default function Gallery() {
     <section className="bg-white py-24 px-6 md:px-12 border-t border-gray-100">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 tracking-tight">
-          Preview Our Work
+          The Gallery
         </h2>
         <p className="text-lg md:text-xl text-gray-600 mb-12">
-          A closer look at the kind of websites we deliver — clean, fast, and built to convert.
+          Pictures (click to enlarge)
         </p>
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-6">

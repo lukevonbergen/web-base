@@ -1,9 +1,9 @@
-import HeroSection from "@/components/HeroSection";
-import Features from "@/components/Features"
-import Pricing from "@/components/Pricing"
-import Footer from "@/components/Footer"
+import HeroSection from "@/components/hero/Hero_1";
+import Features from "@/components/features/Features_1"
+import Pricing from "@/components/pricing/Pricing_1"
+import Footer from "@/components/footer/Footer_1"
 import NavBar from "@/components/navigation/Nav_1"
-import Gallery from "@/components/Gallery"
+import Gallery from "@/components/gallery/Gallery_1"
 
 export default function HomePage() {
   return (

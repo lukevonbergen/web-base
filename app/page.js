@@ -3,6 +3,7 @@ import Features from "@/components/Features"
 import Pricing from "@/components/Pricing"
 import Footer from "@/components/Footer"
 import NavBar from "@/components/NavBar"
+import Gallery from "@/components/Gallery"
 
 export default function HomePage() {
   return (
@@ -20,6 +21,7 @@ export default function HomePage() {
           ]}
         />
         <Features />
+        <Gallery />
         <Pricing />
         <Footer />
       </main>

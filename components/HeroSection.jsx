@@ -8,10 +8,10 @@ export default function HeroSection() {
 
       <div className="max-w-5xl mx-auto text-center">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight tracking-tight mb-6 text-gray-900">
-          Launch a Stunning Site in <span className="text-blue-600">48 Hours</span>
+          This is one of the <span className="text-blue-600">many components</span>
         </h1>
         <p className="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto mb-8">
-          A bespoke, mobile-first website that feels premium — delivered fast and built to convert. Just £249, all in.
+          This is some amendable text, it's great for a subheading and can be adjusted accordingly.
         </p>
 
         <div className="flex justify-center gap-4">
@@ -19,18 +19,18 @@ export default function HeroSection() {
             href="#contact"
             className="bg-blue-600 text-white px-8 py-3 rounded-md font-medium text-lg shadow hover:bg-blue-700 transition"
           >
-            Get Started
+            Button One
           </a>
           <a
             href="#examples"
             className="text-blue-600 font-medium px-8 py-3 rounded-md border border-blue-200 bg-white hover:border-blue-400 transition"
           >
-            See Examples
+            Button Two
           </a>
         </div>
 
         <p className="mt-12 text-sm text-gray-400 tracking-wide uppercase">
-          Trusted by growing businesses across the UK
+          Trusted by brands subtitle
         </p>
 
         <div className="flex justify-center items-center gap-10 mt-6 opacity-80 grayscale">

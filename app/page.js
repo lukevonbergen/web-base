@@ -4,6 +4,8 @@ import Pricing from "@/components/pricing/Pricing_1"
 import Footer from "@/components/footer/Footer_1"
 import NavBar from "@/components/navigation/Nav_1"
 import Gallery from "@/components/gallery/Gallery_1"
+import Testimonials from "@/components/testimonials/Testimonials_1"
+import CTA from "@/components/cta/CTA_1"
 
 export default function HomePage() {
   return (
@@ -22,6 +24,8 @@ export default function HomePage() {
         />
         <Features />
         <Gallery />
+        <CTA />
+        <Testimonials />
         <Pricing />
         <Footer />
       </main>

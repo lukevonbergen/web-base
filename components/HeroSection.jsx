@@ -1,6 +1,6 @@
 export default function HeroSection() {
   return (
-    <section className="relative overflow-hidden bg-[#f9fafb] py-28 px-6 md:px-12">
+    <section className="relative overflow-hidden py-28 px-6 md:px-12">
       <div className="absolute inset-0 -z-10">
         <div className="absolute w-[600px] h-[600px] bg-blue-100 rounded-full blur-3xl opacity-50 top-[-200px] left-[-200px]"></div>
         <div className="absolute w-[400px] h-[400px] bg-pink-100 rounded-full blur-2xl opacity-50 bottom-[-100px] right-[-100px]"></div>

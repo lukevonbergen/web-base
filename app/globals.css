@@ -2,26 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 🌍 Global CSS variables */
+/* Global theme vars */
 :root {
   --background: #ffffff;
-  --foreground: #171717;
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --foreground: #111111;
+  --font-sans: var(--font-inter);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+    --foreground: #f5f5f5;
 }
 
-/* 🖥️ Global Reset */
+/* Base resets */
 body {
   background-color: var(--background);
   color: var(--foreground);
-  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  font-family: var(--font-sans), system-ui, sans-serif;
   font-size: 16px;
   line-height: 1.6;
   margin: 0;
@@ -30,16 +28,13 @@ body {
 }
 
 a {
-  color: inherit;
   text-decoration: none;
+  color: inherit;
   font-weight: 500;
 }
 
-a:hover {
-  opacity: 0.85;
-}
-
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4 {
   font-weight: 700;
   letter-spacing: -0.01em;
+}
 }

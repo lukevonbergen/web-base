@@ -1,8 +1,10 @@
 import HeroSection from "@/components/HeroSection";
+import NavBar from "@/components/NavBar"
 
 export default function HomePage() {
   return (
       <main>
+        <NavBar />
         <HeroSection
           headline="Launch Your Site Like a Pro"
           subheadline="Websites That Look £2,000 — Delivered for £249"

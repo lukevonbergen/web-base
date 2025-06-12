@@ -6,6 +6,9 @@ import NavBar from "@/components/navigation/Nav_1"
 import Gallery from "@/components/gallery/Gallery_1"
 import Testimonials from "@/components/testimonials/Testimonials_1"
 import CTA from "@/components/cta/CTA_1"
+import FAQ from "@/components/faq/FAQ_1"
+import Stats from "@/components/stats/Stats_1"
+import Services from "@/components/services/Services_1"
 
 export default function HomePage() {
   return (
@@ -22,11 +25,14 @@ export default function HomePage() {
             "/logo-placeholder-2.svg",
           ]}
         />
+        <Stats />
         <Features />
         <Gallery />
+        <Services />
         <Testimonials />
         <Pricing />
         <CTA />
+        <FAQ />
         <Footer />
       </main>
   );

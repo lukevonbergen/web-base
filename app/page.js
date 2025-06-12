@@ -1,4 +1,5 @@
 import HeroSection from "@/components/HeroSection";
+import Features from "@/components/Features"
 import NavBar from "@/components/NavBar"
 
 export default function HomePage() {
@@ -16,6 +17,7 @@ export default function HomePage() {
             "/logo-placeholder-2.svg",
           ]}
         />
+        <Features />
       </main>
   );
 }

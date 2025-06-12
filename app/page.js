@@ -9,10 +9,12 @@ import CTA from "@/components/cta/CTA_1"
 import FAQ from "@/components/faq/FAQ_1"
 import Stats from "@/components/stats/Stats_1"
 import Services from "@/components/services/Service_1"
+import Banner from "@/components/banner/Banner_1"
 
 export default function HomePage() {
   return (
       <main>
+        <Banner />
         <NavBar />
         <HeroSection
           headline="Launch Your Site Like a Pro"

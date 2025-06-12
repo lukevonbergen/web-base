@@ -1,9 +1,7 @@
 import HeroSection from "@/components/HeroSection";
-import PageContainer from "@/components/PageContainer";
 
 export default function HomePage() {
   return (
-    <PageContainer>
       <main>
         <HeroSection
           headline="Launch Your Site Like a Pro"
@@ -17,6 +15,5 @@ export default function HomePage() {
           ]}
         />
       </main>
-    </PageContainer>
   );
 }

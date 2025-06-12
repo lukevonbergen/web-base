@@ -1,4 +1,4 @@
-import NavBar from "@/components/NavBar";
+import NavBar from "@/components/navigation/Nav_2";
 import Footer from "@/components/Footer";
 
 export default function TrimsLayout({ children }) {

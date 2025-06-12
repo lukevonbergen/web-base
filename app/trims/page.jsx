@@ -1,6 +1,6 @@
-import Features from "@/components/Features"
-import Pricing from "@/components/Pricing"
-import Gallery from "@/components/Gallery"
+import Features from "@/components/features/Features_1"
+import Pricing from "@/components/pricing/Pricing_1"
+import Gallery from "@/components/gallery/Gallery_1"
 
 export default function HomePage() {
   return (

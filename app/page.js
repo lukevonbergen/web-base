@@ -17,7 +17,8 @@ import CTA from "@/components/cta/CTA_1"
 import FAQ from "@/components/faq/FAQ_1"
 import StatsBasic from "@/components/stats/Stats_1"
 import StatsIntermediate from "@/components/stats/Stats_2"
-import Services from "@/components/services/Service_1"
+import ServicesBasic from "@/components/services/Service_1"
+import ServicesIntermediate from "@/components/services/Service_2"
 import Banner from "@/components/banner/Banner_1"
 
 export default function HomePage() {
@@ -42,7 +43,8 @@ export default function HomePage() {
         <StatsIntermediate />
         <Features />
         <Gallery />
-        <Services />
+        <ServicesBasic />
+        <ServicesIntermediate />
         <TestimonialsBasic />
         <TestimonialsIntermediate />
         <PricingBasic />

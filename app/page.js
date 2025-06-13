@@ -6,7 +6,8 @@ import PricingAdvanced from "@/components/pricing/Pricing_3"
 import FooterBasic from "@/components/footer/Footer_1"
 import FooterIntermediate from "@/components/footer/Footer_2"
 import FooterAdvanced from "@/components/footer/Footer_3"
-import NavBar from "@/components/navigation/Nav_1"
+import NavbarBasic from "@/components/navigation/Nav_1"
+import NavbarIntermediate from "@/components/navigation/Nav_2"
 import Gallery from "@/components/gallery/Gallery_1"
 import TestimonialsBasic from "@/components/testimonials/Testimonials_1"
 import TestimonialsIntermediate from "@/components/testimonials/Testimonials_2"
@@ -21,7 +22,8 @@ export default function HomePage() {
   return (
       <main>
         <Banner />
-        <NavBar />
+        <NavbarBasic />
+        <NavbarIntermediate />
         <HeroSection
           headline="Launch Your Site Like a Pro"
           subheadline="Websites That Look £2,000 — Delivered for £249"

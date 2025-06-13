@@ -1,11 +1,9 @@
 'use client';
 
-import { Scissors, Brush, Sparkles } from 'lucide-react';
-
 const categoryIcons = {
-  Haircuts: <Scissors className="w-5 h-5 text-gray-500" />,
-  'Styling & Colour': <Brush className="w-5 h-5 text-gray-500" />,
-  Nails: <Sparkles className="w-5 h-5 text-gray-500" />,
+  Haircuts: 💇‍♂️, // 💇‍♂️
+  'Styling & Colour': 💇‍♀️, // 💇‍♀️
+  Nails: 💅, // 💅
 };
 
 export default function ServicePriceListIntermediate() {
@@ -45,7 +43,7 @@ export default function ServicePriceListIntermediate() {
           {services.map(({ category, items }) => (
             <div key={category}>
               <div className="flex items-center gap-3 mb-6 border-b pb-2">
-                {categoryIcons[category]}
+                <span className="text-xl">{categoryIcons[category]}</span>
                 <h3 className="text-2xl font-semibold text-gray-800">{category}</h3>
               </div>
               <ul className="space-y-6">

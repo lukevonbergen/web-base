@@ -1,4 +1,5 @@
-import HeroSection from "@/components/hero/Hero_1";
+import HeroBasic from "@/components/hero/Hero_1";
+import HeroIntermediate from "@/components/hero/Hero_2";
 import Features from "@/components/features/Features_1"
 import PricingBasic from "@/components/pricing/Pricing_1"
 import PricingIntermediate from "@/components/pricing/Pricing_2"
@@ -24,7 +25,7 @@ export default function HomePage() {
         <Banner />
         <NavbarBasic />
         <NavbarIntermediate />
-        <HeroSection
+        <HeroBasic
           headline="Launch Your Site Like a Pro"
           subheadline="Websites That Look £2,000 — Delivered for £249"
           description="Professionally designed, mobile-ready sites built and deployed in 48 hours. Zero fluff, all results."
@@ -35,6 +36,7 @@ export default function HomePage() {
             "/logo-placeholder-2.svg",
           ]}
         />
+        <HeroIntermediate />
         <Stats />
         <Features />
         <Gallery />

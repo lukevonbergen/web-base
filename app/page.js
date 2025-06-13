@@ -12,7 +12,6 @@ import NavbarIntermediate from "@/components/navigation/Nav_2"
 import Gallery from "@/components/gallery/Gallery_1"
 import TestimonialsBasic from "@/components/testimonials/Testimonials_1"
 import TestimonialsIntermediate from "@/components/testimonials/Testimonials_2"
-import Testimonials from "@/components/testimonials/Testimonials_1"
 import CTABasic from "@/components/cta/CTA_1"
 import CTAIntermediate from "@/components/cta/CTA_2"
 import FAQ from "@/components/faq/FAQ_1"
@@ -31,7 +30,7 @@ export default function HomePage() {
         <HeroBasic
           headline="Launch Your Site Like a Pro"
           subheadline="Websites That Look £2,000 — Delivered for £249"
-          description="Professionally well designed, mobile-ready sites built and deployed in 48 hours. Zero fluff, all results."
+          description="Professionally designed, mobile-ready sites built and deployed in 48 hours. Zero fluff, all results."
           ctaText="Claim Your Spot"
           ctaLink="#contact"
           logos={[

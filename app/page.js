@@ -15,7 +15,8 @@ import TestimonialsIntermediate from "@/components/testimonials/Testimonials_2"
 import Testimonials from "@/components/testimonials/Testimonials_1"
 import CTA from "@/components/cta/CTA_1"
 import FAQ from "@/components/faq/FAQ_1"
-import Stats from "@/components/stats/Stats_1"
+import StatsBasic from "@/components/stats/Stats_1"
+import StatsIntermediate from "@/components/stats/Stats_2"
 import Services from "@/components/services/Service_1"
 import Banner from "@/components/banner/Banner_1"
 
@@ -37,7 +38,8 @@ export default function HomePage() {
           ]}
         />
         <HeroIntermediate />
-        <Stats />
+        <StatsBasic />
+        <StatsIntermediate />
         <Features />
         <Gallery />
         <Services />

@@ -4,6 +4,8 @@ import Pricing from "@/components/pricing/Pricing_1"
 import Footer from "@/components/footer/Footer_1"
 import NavBar from "@/components/navigation/Nav_1"
 import Gallery from "@/components/gallery/Gallery_1"
+import TestimonialsBasic from "@/components/testimonials/Testimonials_1"
+import TestimonialsIntermediate from "@/components/testimonials/Testimonials_2"
 import Testimonials from "@/components/testimonials/Testimonials_1"
 import CTA from "@/components/cta/CTA_1"
 import FAQ from "@/components/faq/FAQ_1"
@@ -31,7 +33,8 @@ export default function HomePage() {
         <Features />
         <Gallery />
         <Services />
-        <Testimonials />
+        <TestimonialsBasic />
+        <TestimonialsIntermediate />
         <Pricing />
         <CTA />
         <FAQ />

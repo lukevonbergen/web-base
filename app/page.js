@@ -3,7 +3,9 @@ import Features from "@/components/features/Features_1"
 import PricingBasic from "@/components/pricing/Pricing_1"
 import PricingIntermediate from "@/components/pricing/Pricing_2"
 import PricingAdvanced from "@/components/pricing/Pricing_3"
-import Footer from "@/components/footer/Footer_1"
+import FooterBasic from "@/components/footer/Footer_1"
+import FooterIntermediate from "@/components/footer/Footer_2"
+import FooterAdvanced from "@/components/footer/Footer_3"
 import NavBar from "@/components/navigation/Nav_1"
 import Gallery from "@/components/gallery/Gallery_1"
 import TestimonialsBasic from "@/components/testimonials/Testimonials_1"
@@ -42,7 +44,9 @@ export default function HomePage() {
         <PricingAdvanced />
         <CTA />
         <FAQ />
-        <Footer />
+        <FooterBasic />
+        <FooterIntermediate />
+        <FooterAdvanced />
       </main>
   );
 }

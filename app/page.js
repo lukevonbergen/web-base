@@ -20,6 +20,13 @@ import StatsIntermediate from "@/components/stats/Stats_2"
 import ServicesBasic from "@/components/services/Service_1"
 import ServicesIntermediate from "@/components/services/Service_2"
 import Banner from "@/components/banner/Banner_1"
+import FindUsBasic from "@/components/findus/FindUs_1"
+import AboutBasic from "@/components/about/About_1"
+import AboutIntermediate from "@/components/about/About_2"
+import AboutAdvanced from "@/components/about/About_3"
+import ServiceListBasic from "@/components/servicelist/List_1"
+import ServiceListIntermediate from "@/components/servicelist/List_2"
+import ServiceListAdvanced from "@/components/servicelist/List_3"
 
 export default function HomePage() {
   return (
@@ -39,10 +46,16 @@ export default function HomePage() {
           ]}
         />
         <HeroIntermediate />
+        <AboutBasic />
+        <AboutIntermediate />
+        <AboutAdvanced />
         <StatsBasic />
         <StatsIntermediate />
         <Features />
         <Gallery />
+        <ServiceListBasic />
+        <ServiceListIntermediate />
+        <ServiceListAdvanced />
         <ServicesBasic />
         <ServicesIntermediate />
         <TestimonialsBasic />
@@ -52,6 +65,7 @@ export default function HomePage() {
         <PricingAdvanced />
         <CTABasic />
         <CTAIntermediate />
+        <FindUsBasic />
         <FAQ />
         <FooterBasic />
         <FooterIntermediate />

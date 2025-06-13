@@ -30,18 +30,18 @@ export default function HeroSectionIntermediate() {
             Trusted by 100+ small brands
           </p>
           <div className="flex items-center gap-6 mt-4 opacity-80 grayscale">
-            <img src="/logo-placeholder-1.svg" alt="Brand 1" className="h-5" />
-            <img src="/logo-placeholder-2.svg" alt="Brand 2" className="h-5" />
-            <img src="/logo-placeholder-3.svg" alt="Brand 3" className="h-5" />
+            <img src="https://placehold.co/100x30?text=Logo+1" alt="Brand 1" className="h-5" />
+            <img src="https://placehold.co/100x30?text=Logo+2" alt="Brand 2" className="h-5" />
+            <img src="https://placehold.co/100x30?text=Logo+3" alt="Brand 3" className="h-5" />
           </div>
         </div>
 
-        {/* Optional Image / Screenshot / Illustration */}
+        {/* Placeholder Image */}
         <div className="relative">
           <div className="rounded-xl overflow-hidden shadow-lg">
             <img
-              src="/hero-example-image.png"
-              alt="Website example"
+              src="https://picsum.photos/640/480?grayscale"
+              alt="Placeholder website example"
               className="w-full h-auto object-cover"
             />
           </div>

@@ -20,6 +20,7 @@ import StatsIntermediate from "@/components/stats/Stats_2"
 import ServicesBasic from "@/components/services/Service_1"
 import ServicesIntermediate from "@/components/services/Service_2"
 import Banner from "@/components/banner/Banner_1"
+import FindUsBasic from "@/components/findus/FindUs_1"
 
 export default function HomePage() {
   return (
@@ -52,6 +53,7 @@ export default function HomePage() {
         <PricingAdvanced />
         <CTABasic />
         <CTAIntermediate />
+        <FindUsBasic />
         <FAQ />
         <FooterBasic />
         <FooterIntermediate />

@@ -31,7 +31,7 @@ export default function HomePage() {
         <HeroBasic
           headline="Launch Your Site Like a Pro"
           subheadline="Websites That Look £2,000 — Delivered for £249"
-          description="Professionally designed, mobile-ready sites built and deployed in 48 hours. Zero fluff, all results."
+          description="Professionally well designed, mobile-ready sites built and deployed in 48 hours. Zero fluff, all results."
           ctaText="Claim Your Spot"
           ctaLink="#contact"
           logos={[

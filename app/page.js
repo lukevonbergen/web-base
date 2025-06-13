@@ -1,6 +1,8 @@
 import HeroSection from "@/components/hero/Hero_1";
 import Features from "@/components/features/Features_1"
-import Pricing from "@/components/pricing/Pricing_1"
+import PricingBasic from "@/components/pricing/Pricing_1"
+import PricingIntermediate from "@/components/pricing/Pricing_2"
+import PricingAdvanced from "@/components/pricing/Pricing_3"
 import Footer from "@/components/footer/Footer_1"
 import NavBar from "@/components/navigation/Nav_1"
 import Gallery from "@/components/gallery/Gallery_1"
@@ -35,7 +37,9 @@ export default function HomePage() {
         <Services />
         <TestimonialsBasic />
         <TestimonialsIntermediate />
-        <Pricing />
+        <PricingBasic />
+        <PricingIntermediate />
+        <PricingAdvanced />
         <CTA />
         <FAQ />
         <Footer />

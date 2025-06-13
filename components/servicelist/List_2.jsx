@@ -1,3 +1,5 @@
+'use client';
+
 import { Scissors, Brush, Sparkles } from 'lucide-react';
 
 const categoryIcons = {

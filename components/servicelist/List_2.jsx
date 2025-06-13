@@ -1,9 +1,9 @@
 'use client';
 
 const categoryIcons = {
-  Haircuts: 💇‍♂️, // 💇‍♂️
-  'Styling & Colour': 💇‍♀️, // 💇‍♀️
-  Nails: 💅, // 💅
+  Haircuts: '💇‍♂️', // 💇‍♂️
+  'Styling & Colour': '💇‍♀️', // 💇‍♀️
+  Nails: '💅', // 💅
 };
 
 export default function ServicePriceListIntermediate() {

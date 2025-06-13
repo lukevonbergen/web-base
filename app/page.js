@@ -13,7 +13,8 @@ import Gallery from "@/components/gallery/Gallery_1"
 import TestimonialsBasic from "@/components/testimonials/Testimonials_1"
 import TestimonialsIntermediate from "@/components/testimonials/Testimonials_2"
 import Testimonials from "@/components/testimonials/Testimonials_1"
-import CTA from "@/components/cta/CTA_1"
+import CTABasic from "@/components/cta/CTA_1"
+import CTAIntermediate from "@/components/cta/CTA_2"
 import FAQ from "@/components/faq/FAQ_1"
 import StatsBasic from "@/components/stats/Stats_1"
 import StatsIntermediate from "@/components/stats/Stats_2"
@@ -50,7 +51,8 @@ export default function HomePage() {
         <PricingBasic />
         <PricingIntermediate />
         <PricingAdvanced />
-        <CTA />
+        <CTABasic />
+        <CTAIntermediate />
         <FAQ />
         <FooterBasic />
         <FooterIntermediate />

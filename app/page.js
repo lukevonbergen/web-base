@@ -55,7 +55,7 @@ export default function HomePage() {
         <Gallery />
         <ServiceListBasic />
         <ServiceListIntermediate />
-        <ServiceListAdvanced /?
+        <ServiceListAdvanced />
         <ServicesBasic />
         <ServicesIntermediate />
         <TestimonialsBasic />
